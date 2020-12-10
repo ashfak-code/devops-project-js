@@ -1,7 +1,7 @@
 version: '3'
 services:
   my-app:
-    image: devops-project-js:$(Build.BuildId)
+    image: ashfakdevops.azurecr.io/ashfak-code/devops-project-js:$(Build.BuildId)
     ports:
       - 3000:3000
   mongodb:
